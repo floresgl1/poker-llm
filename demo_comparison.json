@@ -1,0 +1,292 @@
+{
+  "session_id": "20260817_144553",
+  "timestamp": "2026-08-17T14:45:53.325139",
+  "models": {
+    "random": "Random Strategy",
+    "call_any": "Call-Any Strategy"
+  },
+  "config": {
+    "num_players": 2,
+    "starting_stack": 500,
+    "small_blind": 5,
+    "big_blind": 10,
+    "min_bet": 10,
+    "max_raise": null,
+    "allow_all_in": true,
+    "max_hands": null,
+    "auto_play": false,
+    "log_all_actions": true,
+    "verbose": false
+  },
+  "matches": [
+    {
+      "timestamp": "2026-08-17T14:45:53.325139",
+      "model1": "random",
+      "model2": "call_any",
+      "num_hands": 15,
+      "model1_final_stack": 395,
+      "model2_final_stack": 455,
+      "model1_profit": -105,
+      "model2_profit": -45,
+      "winner": "call_any",
+      "results": {
+        "session_id": "20260817_144553",
+        "config": {
+          "num_players": 2,
+          "starting_stack": 500,
+          "small_blind": 5,
+          "big_blind": 10,
+          "min_bet": 10,
+          "max_raise": null,
+          "allow_all_in": true,
+          "max_hands": null
+        },
+        "hands_played": 15,
+        "total_pot_distributed": 250,
+        "standings": [
+          {
+            "rank": 1,
+            "name": "Call-Any Strategy",
+            "final_stack": 455,
+            "profit": -45,
+            "buy_ins": 1,
+            "hands_played": 15,
+            "wins": 14,
+            "win_rate": 93.33333333333333,
+            "max_stack": 540,
+            "min_stack": 455
+          },
+          {
+            "rank": 2,
+            "name": "Random Strategy",
+            "final_stack": 395,
+            "profit": -105,
+            "buy_ins": 1,
+            "hands_played": 15,
+            "wins": 1,
+            "win_rate": 6.666666666666667,
+            "max_stack": 500,
+            "min_stack": 395
+          }
+        ],
+        "hand_history": [
+          {
+            "hand_number": 1,
+            "winner": "Call-Any Strategy",
+            "pot": 20,
+            "stacks": {
+              "Random Strategy": 490,
+              "Call-Any Strategy": 510
+            }
+          },
+          {
+            "hand_number": 2,
+            "winner": "Call-Any Strategy",
+            "pot": 20,
+            "stacks": {
+              "Random Strategy": 480,
+              "Call-Any Strategy": 520
+            }
+          },
+          {
+            "hand_number": 3,
+            "winner": "Call-Any Strategy",
+            "pot": 20,
+            "stacks": {
+              "Random Strategy": 470,
+              "Call-Any Strategy": 530
+            }
+          },
+          {
+            "hand_number": 4,
+            "winner": "Call-Any Strategy",
+            "pot": 20,
+            "stacks": {
+              "Random Strategy": 460,
+              "Call-Any Strategy": 540
+            }
+          },
+          {
+            "hand_number": 5,
+            "winner": "Random Strategy",
+            "pot": 20,
+            "stacks": {
+              "Random Strategy": 470,
+              "Call-Any Strategy": 530
+            }
+          },
+          {
+            "hand_number": 6,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 465,
+              "Call-Any Strategy": 520
+            }
+          },
+          {
+            "hand_number": 7,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 455,
+              "Call-Any Strategy": 515
+            }
+          },
+          {
+            "hand_number": 8,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 450,
+              "Call-Any Strategy": 505
+            }
+          },
+          {
+            "hand_number": 9,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 440,
+              "Call-Any Strategy": 500
+            }
+          },
+          {
+            "hand_number": 10,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 435,
+              "Call-Any Strategy": 490
+            }
+          },
+          {
+            "hand_number": 11,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 425,
+              "Call-Any Strategy": 485
+            }
+          },
+          {
+            "hand_number": 12,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 420,
+              "Call-Any Strategy": 475
+            }
+          },
+          {
+            "hand_number": 13,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 410,
+              "Call-Any Strategy": 470
+            }
+          },
+          {
+            "hand_number": 14,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 405,
+              "Call-Any Strategy": 460
+            }
+          },
+          {
+            "hand_number": 15,
+            "winner": "Call-Any Strategy",
+            "pot": 15,
+            "stacks": {
+              "Random Strategy": 395,
+              "Call-Any Strategy": 455
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "random": {
+      "model_id": "random",
+      "hands_played": 15,
+      "wins": 1,
+      "win_rate": "6.7%",
+      "total_profit": "$-105.00",
+      "roi": "-70.0%",
+      "avg_stack": "$395.00",
+      "max_stack": "$395.00",
+      "min_stack": "$395.00",
+      "h2h_records": {
+        "Call-Any Strategy": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    },
+    "call_any": {
+      "model_id": "call_any",
+      "hands_played": 15,
+      "wins": 14,
+      "win_rate": "93.3%",
+      "total_profit": "$-45.00",
+      "roi": "-30.0%",
+      "avg_stack": "$455.00",
+      "max_stack": "$455.00",
+      "min_stack": "$455.00",
+      "h2h_records": {
+        "Random Strategy": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "model": "Call-Any Strategy",
+      "model_id": "call_any",
+      "hands_played": 15,
+      "wins": 14,
+      "win_rate": "93.3%",
+      "total_profit": "$-45.00",
+      "roi": "-30.0%",
+      "avg_stack": "$455.00",
+      "max_stack": "$455.00",
+      "min_stack": "$455.00",
+      "h2h_records": {
+        "Random Strategy": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "model": "Random Strategy",
+      "model_id": "random",
+      "hands_played": 15,
+      "wins": 1,
+      "win_rate": "6.7%",
+      "total_profit": "$-105.00",
+      "roi": "-70.0%",
+      "avg_stack": "$395.00",
+      "max_stack": "$395.00",
+      "min_stack": "$395.00",
+      "h2h_records": {
+        "Call-Any Strategy": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    }
+  ]
+}

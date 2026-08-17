@@ -1,0 +1,247 @@
+{
+  "session_id": "20260817_144553",
+  "timestamp": "2026-08-17T14:45:53.340421",
+  "models": {
+    "random": "Random",
+    "call_any": "Call-Any"
+  },
+  "config": {
+    "num_players": 2,
+    "starting_stack": 300,
+    "small_blind": 5,
+    "big_blind": 10,
+    "min_bet": 10,
+    "max_raise": null,
+    "allow_all_in": true,
+    "max_hands": null,
+    "auto_play": false,
+    "log_all_actions": true,
+    "verbose": false
+  },
+  "matches": [
+    {
+      "timestamp": "2026-08-17T14:45:53.340421",
+      "model1": "random",
+      "model2": "call_any",
+      "num_hands": 10,
+      "model1_final_stack": 240,
+      "model2_final_stack": 255,
+      "model1_profit": -60,
+      "model2_profit": -45,
+      "winner": "call_any",
+      "results": {
+        "session_id": "20260817_144553",
+        "config": {
+          "num_players": 2,
+          "starting_stack": 300,
+          "small_blind": 5,
+          "big_blind": 10,
+          "min_bet": 10,
+          "max_raise": null,
+          "allow_all_in": true,
+          "max_hands": null
+        },
+        "hands_played": 10,
+        "total_pot_distributed": 165,
+        "standings": [
+          {
+            "rank": 1,
+            "name": "Call-Any",
+            "final_stack": 255,
+            "profit": -45,
+            "buy_ins": 1,
+            "hands_played": 10,
+            "wins": 9,
+            "win_rate": 90.0,
+            "max_stack": 310,
+            "min_stack": 255
+          },
+          {
+            "rank": 2,
+            "name": "Random",
+            "final_stack": 240,
+            "profit": -60,
+            "buy_ins": 1,
+            "hands_played": 10,
+            "wins": 1,
+            "win_rate": 10.0,
+            "max_stack": 300,
+            "min_stack": 240
+          }
+        ],
+        "hand_history": [
+          {
+            "hand_number": 1,
+            "winner": "Call-Any",
+            "pot": 20,
+            "stacks": {
+              "Random": 290,
+              "Call-Any": 310
+            }
+          },
+          {
+            "hand_number": 2,
+            "winner": "Random",
+            "pot": 20,
+            "stacks": {
+              "Random": 300,
+              "Call-Any": 300
+            }
+          },
+          {
+            "hand_number": 3,
+            "winner": "Call-Any",
+            "pot": 20,
+            "stacks": {
+              "Random": 290,
+              "Call-Any": 310
+            }
+          },
+          {
+            "hand_number": 4,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 285,
+              "Call-Any": 300
+            }
+          },
+          {
+            "hand_number": 5,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 275,
+              "Call-Any": 295
+            }
+          },
+          {
+            "hand_number": 6,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 270,
+              "Call-Any": 285
+            }
+          },
+          {
+            "hand_number": 7,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 260,
+              "Call-Any": 280
+            }
+          },
+          {
+            "hand_number": 8,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 255,
+              "Call-Any": 270
+            }
+          },
+          {
+            "hand_number": 9,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 245,
+              "Call-Any": 265
+            }
+          },
+          {
+            "hand_number": 10,
+            "winner": "Call-Any",
+            "pot": 15,
+            "stacks": {
+              "Random": 240,
+              "Call-Any": 255
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "stats": {
+    "random": {
+      "model_id": "random",
+      "hands_played": 10,
+      "wins": 1,
+      "win_rate": "10.0%",
+      "total_profit": "$-60.00",
+      "roi": "-60.0%",
+      "avg_stack": "$240.00",
+      "max_stack": "$240.00",
+      "min_stack": "$240.00",
+      "h2h_records": {
+        "Call-Any": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    },
+    "call_any": {
+      "model_id": "call_any",
+      "hands_played": 10,
+      "wins": 9,
+      "win_rate": "90.0%",
+      "total_profit": "$-45.00",
+      "roi": "-45.0%",
+      "avg_stack": "$255.00",
+      "max_stack": "$255.00",
+      "min_stack": "$255.00",
+      "h2h_records": {
+        "Random": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    }
+  },
+  "leaderboard": [
+    {
+      "rank": 1,
+      "model": "Call-Any",
+      "model_id": "call_any",
+      "hands_played": 10,
+      "wins": 9,
+      "win_rate": "90.0%",
+      "total_profit": "$-45.00",
+      "roi": "-45.0%",
+      "avg_stack": "$255.00",
+      "max_stack": "$255.00",
+      "min_stack": "$255.00",
+      "h2h_records": {
+        "Random": {
+          "wins": 1,
+          "losses": 0,
+          "ties": 0
+        }
+      }
+    },
+    {
+      "rank": 2,
+      "model": "Random",
+      "model_id": "random",
+      "hands_played": 10,
+      "wins": 1,
+      "win_rate": "10.0%",
+      "total_profit": "$-60.00",
+      "roi": "-60.0%",
+      "avg_stack": "$240.00",
+      "max_stack": "$240.00",
+      "min_stack": "$240.00",
+      "h2h_records": {
+        "Call-Any": {
+          "wins": 0,
+          "losses": 1,
+          "ties": 0
+        }
+      }
+    }
+  ]
+}

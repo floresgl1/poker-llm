@@ -1,0 +1,61 @@
+{
+  "session_id": "20260817_144553",
+  "timestamp": "2026-08-17T14:45:53.336056",
+  "tournament": {
+    "buy_in": 100,
+    "starting_stack": 5000,
+    "total_players": 3,
+    "hands_played": 20,
+    "hands_per_level": 3
+  },
+  "players": [
+    {
+      "name": "Alice",
+      "stack": 4800,
+      "model_id": "random",
+      "eliminated": false,
+      "finish_position": 2,
+      "bounties_earned": 0
+    },
+    {
+      "name": "Bob",
+      "stack": 5400,
+      "model_id": "call_any",
+      "eliminated": false,
+      "finish_position": 1,
+      "bounties_earned": 0
+    },
+    {
+      "name": "Charlie",
+      "stack": 4800,
+      "model_id": "random",
+      "eliminated": false,
+      "finish_position": 3,
+      "bounties_earned": 0
+    }
+  ],
+  "results": [
+    {
+      "finish_position": 1,
+      "player_name": "Bob",
+      "model": "call_any",
+      "final_stack": 5400,
+      "profit_loss": 400
+    },
+    {
+      "finish_position": 2,
+      "player_name": "Alice",
+      "model": "random",
+      "final_stack": 4800,
+      "profit_loss": -200
+    },
+    {
+      "finish_position": 3,
+      "player_name": "Charlie",
+      "model": "random",
+      "final_stack": 4800,
+      "profit_loss": -200
+    }
+  ],
+  "eliminations": []
+}
