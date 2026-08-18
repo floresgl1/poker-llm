@@ -129,6 +129,14 @@ dmypy.json
 *.swo
 *~
 
+# Node / Frontend specific
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
 # Project specific
 session_results.json
 session_results_*.json
