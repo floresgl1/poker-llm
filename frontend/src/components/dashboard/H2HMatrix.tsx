@@ -1,5 +1,5 @@
 import React from 'react';
-import { LeaderboardModel } from '../../types/poker';
+import { LeaderboardModel } from '@/types/poker';
 
 interface H2HMatrixProps {
     models: LeaderboardModel[];

@@ -1,6 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { LeaderboardModel } from '../../types/poker';
+import { LeaderboardModel } from '@/types/poker';
 
 interface LeaderboardChartProps {
     data: LeaderboardModel[];

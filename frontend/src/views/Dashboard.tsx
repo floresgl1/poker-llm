@@ -1,15 +1,15 @@
 // frontend/src/views/Dashboard.tsx
 
 import React, { useState, useEffect, useMemo } from 'react';
-import { fetchLeaderboard, fetchTournamentResults, fetchHandDetails, fetchHandHistories } from '../services/api';
-import { LeaderboardData, TournamentData, LeaderboardModel, HandHistoryData } from '../types/poker';
-import '../styles/Dashboard.css';
-import LeaderboardChart from '../components/dashboard/LeaderboardChart';
-import HandHistoryList from '../components/dashboard/HandHistoryList';
-import HandViewer from '../components/dashboard/HandViewer';
-import H2HMatrix from '../components/dashboard/H2HMatrix';
-import WinRatePieChart from '../components/dashboard/WinRatePieChart';
-import EliminationsTimeline from '../components/dashboard/EliminationsTimeline';
+import { fetchLeaderboard, fetchTournamentResults, fetchHandDetails, fetchHandHistories } from '@/services/api';
+import { LeaderboardData, TournamentData, LeaderboardModel, HandHistoryData } from '@/types/poker';
+import '@/styles/Dashboard.css';
+import LeaderboardChart from '@/components/dashboard/LeaderboardChart';
+import HandHistoryList from '@/components/dashboard/HandHistoryList';
+import HandViewer from '@/components/dashboard/HandViewer';
+import H2HMatrix from '@/components/dashboard/H2HMatrix';
+import WinRatePieChart from '@/components/dashboard/WinRatePieChart';
+import EliminationsTimeline from '@/components/dashboard/EliminationsTimeline';
 import { unparse } from 'papaparse';
 
 const Dashboard: React.FC = () => {

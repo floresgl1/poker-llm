@@ -1,4 +1,4 @@
-import { LeaderboardData, TournamentData, HandHistoryData, PaginatedHandHistoryResponse } from '../types/poker';
+import { LeaderboardData, TournamentData, HandHistoryData, PaginatedHandHistoryResponse } from '@/types/poker';
 
 // The base URL of your Python backend API
 const API_BASE_URL = 'http://127.0.0.1:8000'; // Assuming your backend will run here

@@ -1,0 +1,12 @@
+# Core backend (FastAPI dashboard API - main.py)
+fastapi>=0.110
+uvicorn[standard]>=0.27
+
+# Testing
+pytest>=8.0
+
+# Optional LLM providers.
+# llm_integration/llm_models.py imports these lazily, so they are only
+# required if you actually play hands with the corresponding model.
+# anthropic>=0.40
+# openai>=1.30

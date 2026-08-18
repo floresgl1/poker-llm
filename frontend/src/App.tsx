@@ -1,7 +1,7 @@
 // frontend/src/App.tsx
 
 import React from 'react';
-import Dashboard from './views/Dashboard';
+import Dashboard from '@/views/Dashboard';
 
 const App: React.FC = () => {
     return (

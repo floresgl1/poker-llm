@@ -1,6 +1,6 @@
 import React from 'react';
 import { ScatterChart, Scatter, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, ZAxis } from 'recharts';
-import { Elimination } from '../../types/poker';
+import { Elimination } from '@/types/poker';
 
 interface EliminationsTimelineProps {
     data: Elimination[];

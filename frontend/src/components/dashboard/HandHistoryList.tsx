@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { fetchHandHistories } from '../../services/api';
+import { fetchHandHistories } from '@/services/api';
+import { Button } from '@/components/ui/button';
 
 interface HandHistoryListProps {
     onSelectHand: (handId: string) => void;
@@ -31,20 +32,19 @@ const HandHistoryList: React.FC<HandHistoryListProps> = ({ onSelectHand }) => {
     if (loading) return <p>Loading hand histories...</p>;
 
     return (
-        <div className="hand-history-list">
-            <h2>Recent Hands</h2>
-            <ul>
+        <div>
+            <ul className="max-h-96 overflow-y-auto">
                 {hands.map(hand => (
-                    <li key={hand.hand_id} onClick={() => onSelectHand(hand.hand_id)}>
+                    <li key={hand.hand_id} onClick={() => onSelectHand(hand.hand_id)} className="flex justify-between p-3 border-b cursor-pointer hover:bg-gray-50">
                         <span>{hand.hand_id}</span>
                         <small>{new Date(hand.timestamp * 1000).toLocaleString()}</small>
                     </li>
                 ))}
             </ul>
-            <div className="pagination-controls">
-                <button onClick={() => setCurrentPage(p => p - 1)} disabled={currentPage <= 1}>Previous</button>
+            <div className="flex items-center justify-between pt-4 mt-2 border-t">
+                <Button variant="outline" onClick={() => setCurrentPage(p => p - 1)} disabled={currentPage <= 1}>Previous</Button>
                 <span>Page {currentPage} of {totalPages}</span>
-                <button onClick={() => setCurrentPage(p => p + 1)} disabled={currentPage >= totalPages}>Next</button>
+                <Button variant="outline" onClick={() => setCurrentPage(p => p + 1)} disabled={currentPage >= totalPages}>Next</Button>
             </div>
         </div>
     );
